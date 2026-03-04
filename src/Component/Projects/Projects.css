@@ -1,0 +1,153 @@
+.projects {
+    /* padding: 5rem 0; */
+    display: none;
+}
+
+.projects.active-projects {
+    display: block;
+}
+
+.projects .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-top: 0px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.projects .item .left {
+    flex: 1;
+}
+
+.projects .item .left .img {
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px #13014633;
+}
+
+.projects .item .left .img img {
+    object-fit: fill;
+    transition: 0.3s ease transform;
+}
+
+.projects .item .left .img::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #5a24ed38;
+}
+
+.projects .item .right {
+    height: 300px;
+    flex: 1;
+    margin-left: -120px;
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    z-index: 2;
+}
+
+.projects .item:hover .left .img img {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.projects .item .right .project-title {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--orange);
+    text-align: center;
+}
+
+.projects .item .right .sub-title {
+    font-size: 1rem;
+    color: darkblue;
+    text-align: center;
+}
+
+.projects .item .right .project-desc {
+    color: var(--black);
+    text-align: justify;
+}
+
+.primary-btn {
+    color: var(--orange);
+}
+
+
+.tab-title {
+    display: flex;
+    margin-left: 20rem;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 1px;
+}
+.tab-title P{
+    font-size: 1rem;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: orange;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active::after {
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .projects .item {
+        flex-direction: column;
+    }
+
+    .projects .item .left {
+        width: 100%;
+    }
+
+    .projects .item .right {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: -150px;
+    }
+
+    .projects .item .left .img {
+        object-fit: cover;
+        transform: scale(0.9);
+    }
+    .tab-title{
+        margin-left: 65px;
+        padding: 2px;
+    }
+}
