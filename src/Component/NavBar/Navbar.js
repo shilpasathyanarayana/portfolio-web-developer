@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { TbSquareLetterS } from 'react-icons/tb'
+// import { TbSquareLetterS } from 'react-icons/tb'
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (

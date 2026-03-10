@@ -35,7 +35,7 @@ export default function Projects() {
                         <div className='all-items'>
                             <div className='item'>
                                 <div className='left'>
-                                    <div className='img'><img src="images/scope.PNG" style={{ height: '450px', width: '500px' }}></img>
+                                    <div className='img'><img src="images/scope.PNG" alt="" style={{ height: '450px', width: '500px' }}></img>
                                     </div>
                                 </div>
                                 <div className='right'>

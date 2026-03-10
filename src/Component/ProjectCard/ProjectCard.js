@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
         <div className='item'>
             <div className='left'>
                 <div className='img'>
-                    <img src={props.image} alt='Project Card Image' style={{ height: '450px', width: '500px' }} />
+                    <img src={props.image} alt='Screenshot of project' style={{ height: '450px', width: '500px' }} />
                 </div>
             </div>
             <div className='right'>

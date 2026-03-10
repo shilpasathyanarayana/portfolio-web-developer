@@ -11,7 +11,7 @@ export default function Experience() {
 
                 <div class="box">
                     <div class="verticle">
-                        <img class="img-top" src="./images/teacher.png" alt=""/>
+                        <img class="img-top" src="./images/teacher.png" alt="Teacher Photo"/>
                             <div class="verticle-text">
                                 Physics Lecturer
                                 <div class="date">(2017-2019)</div>
@@ -25,7 +25,7 @@ export default function Experience() {
 
 
                     <div class="verticle">
-                        <img class="img-top" src="./images/sme.png" alt="" height="32px"/>
+                        <img class="img-top" src="./images/sme.png" alt="Subject Matter Expert" height="32px"/>
                             <div class="verticle-text">
                                 Subject Matter Expert
                                 <div class="date">(2020-2021)</div>
@@ -38,7 +38,7 @@ export default function Experience() {
 
 
                     <div class="verticle">
-                        <img class="img-top" src="./images/teacher.png" alt=""/>
+                        <img class="img-top" src="./images/teacher.png" alt="Tutor"/>
                             <div class="verticle-text">
                                 Online <br/> Tutor
                                     <div class="date">(2021-2022)</div>
@@ -52,7 +52,7 @@ export default function Experience() {
 
 
                     <div class="verticle">
-                        <img class="img-top" src="./images/diploma.png" alt="" height="30px" width="30px"/>
+                        <img class="img-top" src="./images/diploma.png" alt="Diplome" height="30px" width="30px"/>
                             <div class="verticle-text">
                                 Web Development diploma
                                 <div class="date">(2022-2023)</div>

@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <>
             <div className='footer'>
-                <img src='./images/wave.png' alt="Footer Image" style={{ width: '100%', pointerEvents: 'none' }} ></img>
+                <img src='./images/wave.png' alt="" style={{ width: '100%', pointerEvents: 'none' }} ></img>
                 <div className='f-content'>
                     <div>
                         <a href="mailto:shilpa.sathyanarayana5@gmail.com"><span><AiTwotoneMail />shilpa.sathyanarayana5@gmail.com</span></a>
