@@ -20,9 +20,9 @@ export default function Intro() {
                     </div>
                     <a href={Resume} download={"shilpa-sathyanarayana-resume.pdf"}><button className='button i-button'>Download Resume</button></a>
                     <div className='i-icons'>
-                        <a href="http://www.linkedin.com/in/shilpa-sathyanarayana" target='_blank'><img src='/images/linkedin (1).png'></img></a>
-                        <a href="https://github.com/shilpasathyanarayana" target='_blank'><img src='/images/github (1).png' /></a>
-                        <a href="mailto:shilpa.sathyanarayana5@gmail.com" target='_blank'><MdMarkEmailUnread size={100} color='orange' /></a>
+                        <a href="http://www.linkedin.com/in/shilpa-sathyanarayana" target='_blank' rel="noopener noreferrer"><img src='/images/linkedin (1).png'></img></a>
+                        <a href="https://github.com/shilpasathyanarayana" target='_blank' rel="noopener noreferrer"><img src='/images/github (1).png' /></a>
+                        <a href="mailto:shilpa.sathyanarayana5@gmail.com" target='_blank' rel="noopener noreferrer"><MdMarkEmailUnread size={100} color='orange' /></a>
                     </div>
                 </div>
 
