@@ -6,13 +6,11 @@
 .projects.active-projects {
     display: block;
 }
-
 .projects .item {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
-    margin-top: 0px;
+    max-width: 1000px;      /* increased from 800px */
     margin: 0 auto;
     margin-bottom: 5rem;
 }
@@ -27,6 +25,7 @@
 
 .projects .item .left {
     flex: 1;
+    min-width: 450px;       /* prevent image from shrinking */
 }
 
 .projects .item .left .img {
@@ -34,12 +33,17 @@
     position: relative;
     border-radius: 12px;
     box-shadow: 0px 0px 30px #13014633;
+     /* height: 520px;     */
 }
 
 .projects .item .left .img img {
-    object-fit: fill;
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
     transition: 0.3s ease transform;
 }
+
 
 .projects .item .left .img::after {
     position: absolute;
@@ -52,16 +56,15 @@
 }
 
 .projects .item .right {
-    height: 300px;
-    flex: 1;
-    margin-left: -120px;
+    height: auto;
+    flex: 1;                /* equal width to left */
+    margin-left: -60px;
     background-color: white;
-    padding: 1rem 3rem;
+    padding: 1.5rem 2rem;   /* more breathing room */
     border-radius: 12px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
     z-index: 2;
 }
-
 .projects .item:hover .left .img img {
     transform: scale(1.1);
     z-index: 1;
@@ -97,7 +100,8 @@
     margin-bottom: 40px;
     margin-top: 1px;
 }
-.tab-title P{
+
+.tab-title P {
     font-size: 1rem;
 }
 
@@ -124,8 +128,30 @@
     width: 100%;
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 12px 0;
+    justify-content: center;
+}
 
-
+.tech-badge {
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: rgba(90, 36, 237, 0.08);
+    color: darkblue;
+    border: 1px solid rgba(90, 36, 237, 0.25);
+}
+.p-button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 12px;
+}
 
 @media only screen and (max-width: 768px) {
     .projects .item {
@@ -146,7 +172,8 @@
         object-fit: cover;
         transform: scale(0.9);
     }
-    .tab-title{
+
+    .tab-title {
         margin-left: 65px;
         padding: 2px;
     }

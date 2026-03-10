@@ -5,9 +5,11 @@ import { FaCode } from 'react-icons/fa';
 import { SiVisualstudiocode } from 'react-icons/si';
 import { SiAdobecreativecloud } from 'react-icons/si';
 import { BiGitBranch } from 'react-icons/bi';
-import {SiKnowledgebase} from 'react-icons/si';
+import { SiKnowledgebase } from 'react-icons/si';
 import Card from '../Card/Card';
 import { motion } from "framer-motion";
+import { SiAmazonaws } from 'react-icons/si';
+
 export default function Technology() {
 
     const transition = {
@@ -118,6 +120,27 @@ export default function Technology() {
                         icon={<SiKnowledgebase size={80} style={{ color: 'darkblue' }} />}
                         heading={'Soft Skills'}
                         detail={"Requirements gathering, End-user support, Stakeholder communication"}
+                    />
+                </motion.div>
+
+                <motion.div
+                    initial={{ top: "22rem", left: "38rem" }}
+                    whileInView={{ left: "29rem" }}
+                    transition={transition}
+                >
+                    <Card
+                        icon={<SiAmazonaws size={80} style={{ color: 'darkblue' }} />}
+                        heading={'AWS Cloud Practitioner Certification'}
+                        detail={
+                            <a
+                                href="https://cp.certmetrics.com/amazon/en/public/verify/credential/7b81b510d46a4750b0f7bc2752484c54"
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{ color: 'var(--orange)', fontWeight: 'bold', textDecoration: 'none' }}
+                            >
+                                View Certificate ↗
+                            </a>
+                        }
                     />
                 </motion.div>
             </div >

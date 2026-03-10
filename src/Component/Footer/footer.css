@@ -3,7 +3,7 @@
     align-items: center;
     margin: -0.5rem  -3.5rem;
     position: relative;
-    margin-top: -7rem;
+    margin-top: -13rem;
 }
 
 .f-content{
@@ -16,6 +16,14 @@
     margin-top: 12rem;
     gap: 4rem;
     color:black;
+}
+
+.contact-form {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    margin-bottom: 15rem; /* ADD THIS */
 }
 
 .f-icons{

@@ -67,58 +67,49 @@ export default function About() {
                                 <h4>2023 -present</h4>
                                 <h3>Software Developer- Voyager Systems Corp ,Edmonton AB</h3>
                                 <ul>
-                                    <li>Led the full software development cycle as the sole developer - Designed, developed, tested, and
-                                        maintained a full-stack PHP web application that streamlined daily operations for an IT
+                                    <li>Designed and Developed Internal IT tool that streamlined daily operations for an IT
                                         management company including CRM, Ticketing, Invoice generation, Inventory management,
-                                        Billing workflow and User management modules</li>
+                                        Billing Workflow, Email Notifications and User management modules.</li>
 
-                                    <li>Built responsive, user-friendly front-end interfaces using PHP, HTML, CSS, jQuery, and Bootstrap 5,
-                                        and managed MariaDB database design and optimization. Configured and deployed the
-                                        application on FreeBSD/NGINX servers, ensuring speed, scalability, and security, while using
-                                        Composer and Git for efficient dependency and version management.</li>
+                                    <li>Built responsive frontend components using PHP, HTML, CSS, JavaScript [jQuery], Bootstrap 5,
+                                        and developed Python-based REST APIs to handle backend logic and data exchange and
+                                        MySQL database design and optimization.</li>
 
-                                    <li>Developed a Service Level Agreement (SLA)–based ticket prioritization system, improving
-                                        response accuracy and significantly reducing ticket handling time for the support team.</li>
+                                    <li>Configured and deployed the application on production servers ensuring speed, scalability, and
+                                        security, using Composer and Git for efficient dependency and version management.</li>
 
                                     <li>
-                                        Designed and implemented a Document Management module that centralized client-related and
-                                        company-related documents in one accessible location, improving information retrieval and
-                                        reducing manual search effort.
+                                        Implemented an SLA based ticket prioritization system using Python API endpoint reducing
+                                        average ticket handling time by approximately 30% which improved response accuracy for the
+                                        support team.
                                     </li>
 
                                     <li>
-                                        Developed an email notification system module that improved communication and reduced
-                                        manual follow-ups by automating alerts for SLA violations, user management updates, and key
-                                        system events
+                                        Automated email notification workflows for SLA violations and user management events and
+                                        key system events reducing manual follow ups by 50% and improved internal communications
+                                        efficiency.
                                     </li>
 
                                     <li>
-                                        Collaborated with service teams to translate workflow and usability needs into scalable solutions,
-                                        actively incorporating feedback to enhance UI/UX and backend performance. Tested and
-                                        optimized the application for speed, cross-browser compatibility, and SEO efficiency.
-                                        Authored technical documentation for deployment, structure, and features to support future
-                                        maintenance.
+                                        Collaborated with service teams to translate workflow and actively incorporated feedback to
+                                        enhance UI/UX and performance. Tested and optimized the application for speed, crossbrowser compatibility, and SEO efficiency. Performed Unit test and authored technical
+                                        documentation for deployment, structure, and features to support future maintenance.
                                     </li>
                                 </ul>
                             </div>
                             <div className='box'>
-                                <h4>2022 -Present</h4>
+                                <h4>2022 -2023</h4>
                                 <h3>Web developer-Freelance</h3>
                                 <ul>
                                     <li>
-                                        Developing MyEduNest, a comprehensive daycare management web application using PHP,
-                                        JavaScript, Docker, and AWS (S3 for file and image uploads) to streamline day-to-day
-                                        operations, including child onboarding, parent and staff profile management,
-                                        class scheduling, attendance tracking, appointment booking,Two-factor authentication for secure login,
-                                        QuickBooks API integration,and dynamic portal announcements.
+                                        Completed multiple web development projects for clients in freelancing platforms, delivering
+                                        solutions and aligning deliverables with defined project milestones.
                                     </li>
-                                    <li>Used Docker and Composer to containerize and manage application dependencies, improving
-                                        deployment consistency</li>
-                                    <li>Strengthened skills in Laravel, server configuration, and modern web development practices
-                                        through hands-on project work.</li>
+                                    <li>Optimized WordPress websites using caching and SEO techniques, improving page load speed
+                                        by 40% and achieving Google Page Speed scores above 90.</li>
                                 </ul>
                             </div>
-                            <div className='box'>
+                            {/* <div className='box'>
                                 <h4>2019 -2021</h4>
                                 <h3>Subject Matter Expert - Byju’s and Unacademy</h3>
                                 <ul>
@@ -128,18 +119,18 @@ export default function About() {
                                     Ensured content alignment with curriculum standards and learning objectives for diverse student age groups.
                                     Contributed to content strategy discussions, helping improve the educational impact and usability of digital learning platforms.</li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className='box'>
                                 <h4>2017 -2019</h4>
                                 <h3>Lecturer- Alva's Education Foundation, Karnataka, India</h3>
                                 <ul>
                                     <li>
-                                        Delivered engaging lectures for Grades 11 and 12, helping students build strong foundation of the
-                                        subject and problem-solving. Guided students through lab experiments and real-world
-                                        applications, promoting analytical thinking and teamwork.
-                                        Developed lesson plans, assignments, and assessments that improved student engagement and
-                                        performance.
+                                        Delivered lectures to Grades 11 and 12, helping students build strong foundation of the subject
+                                        and problem-solving. Guided students through lab experiments and real-world applications,
+                                        promoting analytical thinking and teamwork.
                                     </li>
+                                    <li>Developed lesson plans, assignments, and assessments that improved student engagement
+                                        and performance.</li>
                                 </ul>
                             </div>
 

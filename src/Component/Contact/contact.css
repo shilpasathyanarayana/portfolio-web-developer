@@ -7,6 +7,22 @@
   padding-top: 3rem;
 }
 
+.contact-btn {
+    width: 8rem;
+    height: 2rem;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #e67e00;
+}
+
 .c-right{
     display: flex;
     justify-content: center;
