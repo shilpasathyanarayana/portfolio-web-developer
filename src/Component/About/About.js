@@ -8,13 +8,13 @@ export default function About() {
         <>
             <Navbar />
             <div className='para-section'>
-                <h1>About Me</h1>
-                <p> Full-Stack Software Developer with 3 years of experience managing the complete development lifecycle
+                {/* <h1>About Me</h1> */}
+                {/* <p> Full-Stack Software Developer with 3 years of experience managing the complete development lifecycle
                     in fast-paced environments. Skilled in building scalable web applications and RESTful APIs, with a passion
                     for problem-solving, creating responsive designs, and enhancing user experiences. Looking to contribute
                     my skills to create reliable and user-friendly web solutions.
                 </p>
-                <br />
+                <br /> */}
                 <h1>My Journey:</h1>
                 <p>I am  a full-stack developer with a diverse background in Computer Sceince, Physics and Mathematics education.
                     My journey from being a dedicated lecturer to embracing the world of web development has been a testament to my curiosity, adaptability, and love for problem-solving.

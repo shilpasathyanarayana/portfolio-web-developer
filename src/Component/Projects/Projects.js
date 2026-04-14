@@ -24,7 +24,7 @@ export default function Projects() {
                             Username: test@edubuddys.com, password: edubuddys`}
                             techStack={['PHP', 'jQuery', 'Mariadb', 'Bootstrap', 'Docker', 'AWS', 'Google Authenticator API']}
                             link="https://dev.edubuddys.com/"
-                            sorcecode="https://github.com/shilpasathyanarayana/MyEduNest"
+                            // sorcecode="https://github.com/shilpasathyanarayana/MyEduNest"
                         />
                         <ProjectCard
                             image="images/resume.png"
@@ -32,8 +32,8 @@ export default function Projects() {
                             subTitle="AI-Powered Resume Analysis Web Application"
                             description="A web application that analyzes and optimizes resumes using AI to improve job application success. The system evaluates resume content, provides personalized improvement suggestions, and aligns resumes with job descriptions using Google AI APIs."
                             techStack={['HTML', 'Python', 'FastAPI', 'Docker', 'Google AI API']}
-                            link="#"
-                            sorcecode="https://github.com/shilpasathyanarayana/resume-optimizer-ai"
+                            link="https://resume-optimiser-ai.netlify.app/"
+                            // sorcecode="https://github.com/shilpasathyanarayana/resume-optimizer-ai"
                         />
                         <ProjectCard
                             image="images/scope.PNG"
